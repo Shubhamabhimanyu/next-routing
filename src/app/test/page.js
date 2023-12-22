@@ -1,17 +1,10 @@
-
 import React from 'react'
-import Test from '../../components/Test'
-import Data from '../../components/Data'
 import Link from 'next/link'
-
-export default function page() {
+export default function test
+() {
   return (
-    <div>
-      {/* <Test xyz="5"/> */}
-    {/* <Data/> */}
-    Home
-
-    <div>
+    <div>test
+      <div>
     <Link href="/">Home</Link>
       
       <Link href="/blog">blog</Link>
